@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>YouTube Embed Player</h1>
+  <p>Easy to embed YouTube-Players with <code>&lt;youtube-player src="YOUTUBE-URL"&gt;&lt;/youtube-player&gt;</code></p>
+
+  <hr />
+
+  <div style="max-width: 600px; margin: 40px auto;">
+    <h3>Video Player without any options</h3>
+    <youtube-player url="https://www.youtube.com/watch?v=ohsnD7eBB3I"></youtube-player>
+    <hr />
+    <h3>Videoplayer with <code>autoplay</code>, <code>allow-fullscreen</code> and <code>hide-info</code> enabled</h3>
+    <youtube-player url="https://www.youtube.com/watch?v=jJWPmYSbN5c" autoplay allow-fullscreen hide-info></youtube-player>
+    <hr />
+    <h3>YouTube Player with <code>extended-privacy</code>, <code>hide-controls</code> and <code>start-at</code> set to 60s.</h3>
+    <youtube-player url="https://www.youtube.com/watch?v=lD3_eG6UKtU&t=501s" hide-controls extended-privacy start-at="60"></youtube-player>
+  </div>
+
+  <script src="./youtube.js"></script>
+</body>
+</html>
