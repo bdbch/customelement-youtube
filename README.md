@@ -30,7 +30,7 @@ import "customelement-youtube"
 <script src="build/youtube.es5.js"></script>
 ```
 
-When image-blur is loaded correctly, you can just use it like this:
+When customelement-youtube is loaded correctly, you can just use it like this:
 
 ```html
 <youtube-player url="https://www.youtube.com/watch?v=jJWPmYSbN5c" >
